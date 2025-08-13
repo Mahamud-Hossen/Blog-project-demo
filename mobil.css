@@ -1,0 +1,102 @@
+/* header start hare */
+header{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(204, 229, 229);
+    position: static;
+}
+.logo img{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.navbar{
+    text-align: center;
+    margin-top: 20px;
+}
+ul li{
+    display: block;
+    text-align: center;
+}
+ul li a{
+    color: black;
+}
+/* header end hare */
+/* main section start hare */
+.bannar{
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+}
+aside img{
+    margin-top: 20px;
+}
+/* main section end hare */
+/* about section start hare */
+.card-containar{
+    display:flex;
+    flex-direction: column;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+.card:hover{
+    transform: scale(1);
+}
+.section-heading{
+    margin-top: 50px;
+}
+/* about section end hare */
+/* archived section start hare */
+    .archived-lists{
+        flex-wrap: wrap;
+    }
+    .archived-img:hover{
+        transform: scale(1);
+    }
+/* archived section end hare */
+/* blog post start hare */
+.blog-post{
+    flex-direction: column;
+    
+}
+.blog-header{
+    text-align: center;
+}
+.blog-sub-header{
+    text-align: center;
+}
+/* blog post end hare */
+/* contact section start hare */
+.form-control{
+    flex-direction: column;
+}
+input,textarea{
+    width: 90%;
+}
+.form{
+    margin-bottom: 100px;
+    width: 90%;
+}
+/* contact section end hare */
+/* footer start hare */
+footer{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright-text{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.social-icon {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.social-icon a{
+    text-decoration: none;
+    color: black;
+}
+/* footer end hare */
